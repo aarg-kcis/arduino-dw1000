@@ -27,6 +27,7 @@ void setup() {
   
   //we start the module as a tag
   DW1000Ranging.startAsTag("00:00:22:EA:82:60:3B:9C", DW1000.MODE_LONGDATA_RANGE_ACCURACY, false);
+
 }
 
 void loop() {

@@ -43,7 +43,11 @@
 #define LEN_DATA 90
 
 //Max devices we put in the networkDevices array ! Each DW1000Device is 74 Bytes in SRAM memory for now.
+<<<<<<< HEAD
 #define MAX_DEVICES 10
+=======
+#define MAX_DEVICES 4
+>>>>>>> 55e722a6e5ad7e6823bf1cbc9de8affbf7b138ae
 
 //Default Pin for module:
 #define DEFAULT_RST_PIN 9
